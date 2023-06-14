@@ -1,0 +1,84 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    color: #ddd;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+img {
+    width: 18rem; /*Largura*/
+    height: 18rem; /*altura*/
+}
+
+.descricao {
+    width: 18.75rem;
+}
+
+h2 {
+    margin-bottom: .3125rem;
+}
+
+.duracaoMusica {
+    width: 18.75rem;
+    margin-top: 1.5625rem;
+}
+
+.barra {
+    width: 18.75rem;
+    height:  .375rem;
+    border: 1px solid #eee;
+    border-radius: .3125rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /*Move o elemento para esquerda*/
+}
+
+progress {
+    height: .375rem;
+    width: 0%;
+    background-color: #333;
+}
+
+.pontoPosicaoMusica {
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: #eee;
+    border-radius: 50%; /*Arredonda*/
+    margin-left: -0.625rem;
+}
+
+.tempo {
+    display: flex; /*Alinha lado a lado*/
+    width: 18.75rem;
+    justify-content: space-between; /*Distância ao máximo dois ou mais elementos entre si*/
+}
+
+.player {
+    width: 18.75rem;
+    display: flex;
+    justify-content: space-around; /*Separa um pouco os elementos*/
+    align-items: center;
+    margin-top: .9375rem;
+    cursor: pointer;
+}
+
+.botao-play, .botao-pause {
+    font-size: 3.125rem; /*Aumenta o tamanho do item*/  
+    cursor: pointer;
+}
+
+.setas {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.botao-pause {
+    display: none; /*Escondendo o botão de pause*/
+}
