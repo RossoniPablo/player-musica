@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     display: flex;
@@ -6,15 +7,17 @@ body, html {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #333;
+    background-color: #020101;
     color: #ddd;
     font-family: 'Montserrat', sans-serif;
 
 }
 
 img {
-    width: 18rem; /*Largura*/
-    height: 18rem; /*altura*/
+    width: 18rem;
+    /*Largura*/
+    height: 18rem;
+    /*altura*/
 }
 
 .descricao {
@@ -32,12 +35,13 @@ h2 {
 
 .barra {
     width: 18.75rem;
-    height:  .375rem;
+    height: .375rem;
     border: 1px solid #eee;
     border-radius: .3125rem;
     display: flex;
     align-items: center;
-    justify-content: flex-start; /*Move o elemento para esquerda*/
+    justify-content: flex-start;
+    /*Move o elemento para esquerda*/
 }
 
 progress {
@@ -50,27 +54,33 @@ progress {
     width: 1.25rem;
     height: 1.25rem;
     background-color: #eee;
-    border-radius: 50%; /*Arredonda*/
+    border-radius: 50%;
+    /*Arredonda*/
     margin-left: -0.625rem;
 }
 
 .tempo {
-    display: flex; /*Alinha lado a lado*/
+    display: flex;
+    /*Alinha lado a lado*/
     width: 18.75rem;
-    justify-content: space-between; /*Distância ao máximo dois ou mais elementos entre si*/
+    justify-content: space-between;
+    /*Distância ao máximo dois ou mais elementos entre si*/
 }
 
 .player {
     width: 18.75rem;
     display: flex;
-    justify-content: space-around; /*Separa um pouco os elementos*/
+    justify-content: space-around;
+    /*Separa um pouco os elementos*/
     align-items: center;
     margin-top: .9375rem;
     cursor: pointer;
 }
 
-.botao-play, .botao-pause {
-    font-size: 3.125rem; /*Aumenta o tamanho do item*/  
+.botao-play,
+.botao-pause {
+    font-size: 3.125rem;
+    /*Aumenta o tamanho do item*/
     cursor: pointer;
 }
 
@@ -80,5 +90,6 @@ progress {
 }
 
 .botao-pause {
-    display: none; /*Escondendo o botão de pause*/
+    display: none;
+    /*Escondendo o botão de pause*/
 }
